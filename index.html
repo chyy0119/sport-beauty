@@ -223,10 +223,87 @@
             font-size: 1.5em;
         }
         .personality-info p {
-            line-height: 1.8;
-            color: #333;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
             text-align: left;
         }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                border-radius: 12px;
+            }
+            .container::before,
+            .container::after {
+                display: none;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 20px;
+            }
+            h2 {
+                font-size: 1.2em;
+                margin-bottom: 15px;
+            }
+            h3 {
+                font-size: 1.1em;
+                margin-bottom: 12px;
+            }
+            .question {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .question p {
+                font-size: 0.95em;
+            }
+            .options {
+                gap: 10px;
+            }
+            .option {
+                padding: 12px 14px;
+                font-size: 0.9em;
+            }
+            .button {
+                padding: 14px 20px;
+                font-size: 1em;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .progress-bar {
+                height: 6px;
+            }
+            .personality-info {
+                padding: 12px;
+            }
+            .personality-info p {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+            .personality-info h3 {
+                font-size: 15px;
+            }
+            .sport-recommendations {
+                padding: 18px;
+            }
+            .sport-recommendations li {
+                font-size: 0.9em;
+                padding-left: 20px;
+            }
+            .pixel-person {
+                width: 140px;
+                height: 180px;
+            }
+            .result h2 {
+                font-size: 1.4em;
+            }
+        }
+
         .sport-recommendations {
             margin-top: 30px;
             padding: 25px;
